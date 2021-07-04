@@ -1,0 +1,325 @@
+@font-face {
+    font-family: Gilroy-Bold; 
+    src: url(Gilroy-Bold.ttf); 
+}
+@font-face {
+    font-family: Gilroy-Medium; 
+    src: url(Gilroy-Medium.ttf); 
+}
+
+:root{
+    --body-color: #ffffff;
+    --header-color:#828282;
+    --hr-color:#0c0c0c;
+    --about-color:#F6F6F6;
+    --ph-color: #828282;
+    --like-color: #828282;
+    --home-color: #070707;
+    --Denis-color:#070707;
+    --ux-color: #070707;
+    --h-color: #070707;
+    --text-color:#070707;
+    --hh-color:#070707;
+    --text1-color:#070707;
+    --tex-color:#070707;
+    --wri-color:#070707;
+    --Contacts-color:#070707;
+    --smthtx-color:#070707;
+    --input-color:white;
+    --input_bg:white;
+}
+
+:root[data-theme='dark']{
+    --body-color: #2b2929;
+    --header-color:#c9c4c4;
+    --hr-color:#ffffff;
+    --about-color:#313030;
+    --ph-color: #111010;
+    --like-color: #ffffff;
+    --home-color: #ffffff;
+    --Denis-color:#ffffff;
+    --ux-color: #ffffff;
+    --h-color:#ffffff;
+    --text-color:#ffffff;
+    --hh-color:#ffffff;
+    --text1-color:#ffffff;
+    --tex-color:#ffffff;
+    --wri-color:#ffffff;
+    --Contacts-color:#ffffff;
+    --smthtx-color:#ffffff;
+    --input-color:rgb(255, 255, 255);
+    --input_bg:#2b2929;
+}
+
+html, body{
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background:var( --body-color);
+}
+header a { 
+    float: left;
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22.28px;
+    padding: 0 155.65px 0 0;
+    color: var(--header-color);
+    margin-top: 32.990234375px;
+}
+.home {
+    color: var(--home-color);
+}
+.gray3 {
+    padding-right: 0px;
+}
+hr {
+    border: none;
+    background-color: var(--hr-color);
+    height: 1px;
+    width: 940.6040246708466px;
+    margin-top: 87.94px;
+    position: absolute;
+}
+.Denis {
+    font-family: Gilroy-Bold;
+    color: var(--Denis-color);
+    font-size: 47.34px;
+    line-height: 58.61px;
+    width: 123.51px;
+    height: 118.17px;
+    margin-top: 115.13px;
+    position: absolute;
+    
+}
+.ux {
+    font-family: Gilroy-Medium;
+    color: var( --ux-color);
+    font-size: 18px;
+    line-height: 21.83px;
+    margin-top: 183.21px;
+    position: absolute;
+    margin-left: 419.74px;
+}
+.main {
+    position: absolute;
+    width:65px;
+    height:20.06px;
+    margin-top: 183.21px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    transform: rotate(-90deg);
+    margin-left: 900px;
+}
+.hat {
+    position: absolute;
+    margin-top: 276.94px;
+}
+.h {
+    width: 100%;
+    position: absolute;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--h-color);
+    top: 120.25px;
+}
+.text {
+    position: absolute;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text-color);
+    top: 181px;
+    width: 100%;
+}
+
+.about_me, .Portfolio {
+    position: absolute;
+    top: 768px;
+    width: 100%;
+    height: 506px;
+    background: var(--about-color);
+}
+.Skills {
+    position: absolute;
+    top: 1274px;
+    width: 100%;
+    height: 610px;
+}
+.hh {
+    position: absolute;
+    top: 91px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--hh-color);
+    width: 100%;
+    height: 26.04px;
+}
+.text1 {
+    position: absolute;
+    top: 186.14px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text1-color);
+    width: 100%;
+}
+.im1 {
+    float: left;
+    position: absolute;
+    margin-top: 292.65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.im1 img {
+    padding-right: 90.25px; 
+}
+
+.im1 img:nth-child(4) {
+    padding-right: 0px;
+}
+
+.ph1, .ph2, .ph3, .ph4 {
+    position: absolute;
+    top: 1679.27px;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--ph-color);
+}
+.starset img, .starset1 img, .starset2 img, .starset3 img {
+    margin-right: 9.02px;
+}
+.starset, .starset1, .starset2, .starset3 {
+    position: absolute;
+    margin-top: 1746.94px;
+}
+
+.Portfolio {
+    top: 1884px;
+    height: 2253px;
+}
+.tex {
+    position: absolute;
+    width: 100%;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--tex-color);
+    top: 112.93px;
+}
+.home img, .reebok img, .cam img {
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    top: 203px;
+}
+.wri1, .wri2, .wri3 {
+    position: absolute;
+    top: 757.88px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: var(--wri-color);
+    width: 100%;
+}
+.reebok img {
+    height: 522px;
+    top: 879px;
+}
+.wri2 {
+    top: 1445.89px;
+    width: 100%;
+}
+.cam img {
+    height: 522px;
+    top: 1567px;
+}
+.wri3 {
+    top: 2134.9px;
+    width: 100%;
+}
+footer {
+    position: absolute;
+    top: 4137px;
+    height: 622px;
+    width: 100%;
+}
+.Contacts {
+    position: absolute;
+    top: 114.24px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--Contacts-color);
+    width: 100%;
+    height: 26.04px;
+}
+.smthtx {
+    position: absolute;
+    top: 177.34px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--smthtx-color);
+    width: 100%;
+    height: 44.06px;
+}
+input[type=submit] {
+    position: absolute;
+    top: 251px;
+    width: 181px;
+    height: 42px;
+    border: 0;
+    padding: 0;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: var(--input-color);
+    background-color: var(--input_bg);
+}
+.inp {
+    display: flex;
+    justify-content: center;
+}
+.images a {
+    margin-right: 60px;
+}
+.images a:nth-child(4) {
+    margin-right: 0px;
+}
+.images {
+    float: left;
+    position: absolute;
+    margin-top: 379.64px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.like {
+    position: absolute;
+    margin-top: 464.76px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--like-color);
+    width: 100%;
+}
